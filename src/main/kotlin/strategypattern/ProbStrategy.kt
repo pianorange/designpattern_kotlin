@@ -1,0 +1,4 @@
+package strategypattern
+
+class ProbStrategy {
+}
