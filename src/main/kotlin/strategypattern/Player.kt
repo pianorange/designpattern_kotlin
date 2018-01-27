@@ -1,5 +1,0 @@
-package strategypattern
-
-class Player {
-
-}

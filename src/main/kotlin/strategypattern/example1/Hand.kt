@@ -1,4 +1,4 @@
-package strategypattern
+package strategypattern.example1
 
 class Hand() {
     companion object {
@@ -7,10 +7,10 @@ class Hand() {
         val HANDVALUE_GUU:Int = 0; //주먹
         val HANDVALUE_CHO:Int = 1; //가위
         val HANDVALUE_PAA:Int = 2; //보
-        val hand :Array<Hand> = arrayOf(Hand(HANDVALUE_GUU),Hand(HANDVALUE_CHO), Hand(HANDVALUE_PAA))
+        val hand :Array<Hand> = arrayOf(Hand(HANDVALUE_GUU), Hand(HANDVALUE_CHO), Hand(HANDVALUE_PAA))
         val name:Array<String> = arrayOf("주먹","가위","보")
 
-        fun getHand(handvalue:Int):Hand{
+        fun getHand(handvalue:Int): Hand {
             return hand[handvalue]
         }
 
@@ -31,7 +31,7 @@ class Hand() {
     //0+1%3
     //1+1%3
     //2+1%3
-    //3*0 + 1      7 = 3*2 +1   1%3 = 4%3 = 7%3
+    //1 = 3*0 + 1      7 = 3*2 +1   1%3 = 4%3 = 7%3
     //주먹 1 = 3*0 +1   나머지 1
     //가위 2 = 3*0 +2   나머지 2
 

@@ -1,4 +1,4 @@
-package strategypattern
+package strategypattern.example1
 
 class Main {
 

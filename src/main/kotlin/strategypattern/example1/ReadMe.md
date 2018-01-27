@@ -5,7 +5,7 @@ Strategy 패턴
 Strategy = 전략 <br>
 문제를 해결하기 위해 알고리즘을 구현할 부분을 상황에 맞게 교체하는 패턴.
 <br><br>
-![](./img/2000px-Strategy_Pattern_Diagram_ZP.svg.png)
+![](img/2000px-Strategy_Pattern_Diagram_ZP.svg.png)
 
 
 

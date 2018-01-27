@@ -1,11 +1,11 @@
-package strategypattern
+package strategypattern.example1
 
 import java.util.*
 
-class ProbStrategy():Strategy {
+class ProbStrategy(): Strategy {
     lateinit var random:Random
     var won:Boolean = false
-    var prevHand:Hand? =null
+    var prevHand: Hand? =null
 
     constructor(seed:Int):this(){
        random = Random()
