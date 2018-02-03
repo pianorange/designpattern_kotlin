@@ -3,7 +3,7 @@ package strategypattern.example2
 class Apple() {
 
     var color:String =""
-    var weight:Int =0
+    var weight:Int = 0
 
     constructor(color:String,weight:Int):this(){
         this.color = color
@@ -13,6 +13,5 @@ class Apple() {
     override fun toString(): String {
         return "Apple(color='$color', weight=$weight)"
     }
-
 
 }
